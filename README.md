@@ -1,1 +1,1 @@
-# Load_Testing_With_K6(practice)
+# Load_Testing_With_K6
