@@ -3,9 +3,11 @@ import { validateStatusCode } from '../scripts/checks.js';
 import { sleep } from 'k6';
 
 export const options = {
-  vus: 3, 
-  duration: '15s',
+  vus: 300, 
+  duration: '55s',
 };
+
+
 
 export default function () {
   const response = getCrocodiles();
